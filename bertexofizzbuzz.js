@@ -5,18 +5,19 @@
 // expected here.
 
 'use strict';
-var fizzbuzz = function (x) {
-if((x % 3 === 0)) && ((x % 5 === 0))
-console.log("FizzBuzz");
+var fizzbuzz = function (x) 
+}else if(x % 5 === 0)
+{
+  return"fizz";
+  return"buzz";
 }
-else if(x % 3 === 0){
-  console.log ("Fizz");
-}
-else if(x % 5 === 0){
-  console.log("Buzz");
+else if(x % 3 === 0)
+{
+return"buzz";
+return"fizz";
 }
 else{
-  console.log(x);
+retour x;
 };
 };
 module.exports = { fizzbuzz: fizzbuzz };
