@@ -7,9 +7,20 @@
 'use strict';
 
 var fizzbuzz = function (x) {
-//
-// YOUR CODE GOES HERE
-//
+  for (var i= 0; i<30; i++)
+  if(i%3===0 && !(i%5===0)){
+    consol.log("fizz");
+  }
+  if else(i%5===0  && !(i%3===0)){
+    consol.log("buzz");
+  }
+  if else(i%3====0 && i%5===0){  
+    consol.log("fizzbuzz");
+  }
+  else{
+    consol.log(i);
+  }
+  
 };
 
 module.exports = { fizzbuzz: fizzbuzz };
